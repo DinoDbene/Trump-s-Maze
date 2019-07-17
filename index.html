@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Trump's Maze</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    
+</head>
+<body>
+    <div class="menu-bar">
+        <div class="go-back" onclick="tela1()">
+            <img src="img/voltar.png" width="30" height="30">
+        </div>
+        <div class="gp-bottons">
+            <div class="button" onclick="randMaze(), tela2()">
+                Gerar Labirinto <br> pseudo-randômico
+            </div>
+
+            <div class="button" onclick="gridCreate(), tela2()">
+                Construir meu <br> próprio Labirinto
+            </div>
+
+            <div class="button-2" onclick="selection(1)">
+                Trump
+            </div>
+
+            <div class="button-2" onclick="selection(2)">
+                Dollar
+            </div>
+
+            <div class="button-2" onclick="showPath()">
+                God's Help
+            </div>
+        </div>
+        
+    </div>
+    <div>
+        <canvas width="585" height="585" ></canvas>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -4,3 +4,7 @@ Trabalho da disciplina de Grafos onde a ideia é rodar um algoritimo de Busca em
 
 ## Requisitos
 Nenhum. Apenas clone o projeto e abra o `index.html` no navegador. 
+
+## Observações
+A funcionalidade "Construir meu próprio Labirinto" ainda não está implementada
+
